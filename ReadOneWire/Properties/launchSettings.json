@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReadOneWire": {
+      "commandName": "Project",
+      "commandLineArgs": "--ServerName=server.home --SensorName=test SensorNames=\"C:\\Users\\nick\\Source\\HomeAutomation\\Sensors\\ReadOneWire\\SensorNames.json\""
+    }
+  }
+}

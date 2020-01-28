@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <Authors>nick@nickrandell.com</Authors>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Roslynator.Analyzers" Version="2.3.0" PrivateAssets="All" />
+    <Compile Include="../GlobalSuppressions.cs" />
+  </ItemGroup>
+</Project>
